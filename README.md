@@ -16,3 +16,24 @@ Note: Dynatrace Agent does not pull metrics with text value. So, I have used Syn
 
 3.	Post dashboard json to Dynatrace server. Refer to the below link for instructions
     https://www.dynatrace.com/support/help/dynatrace-api/configuration-api/dashboards-api/post-dashboard/
+If the above steps are successful, you can see dash boards added to Dynatrace server.
+ 
+
+Connector Dashboard
+
+ 
+
+ 
+
+Schema Registry
+
+ 
+
+Kafka Rest Proxy
+
+ 
+
+KSQL DB
+
+ 
+
