@@ -21,28 +21,26 @@ https://www.dynatrace.com/support/help/dynatrace-api/configuration-api/dashboard
 
 If the above steps are successful, you can see dash boards added to Dynatrace server.
 
-![Dash boards](/images/logo.png)
-Format: ![Alt Text](url)
+## Dashboards
+![Dash boards](/images/Dashboards.png)
 
 ## Connector Dashboard
 
-![Connectors Monitoring Dashboard](/images/logo.png)
-Format: ![Alt Text](url)
+![Connectors Monitoring Dashboard](/images/Connectors.png)
 
-![Connectors Monitoring Dashboard](/images/logo.png)
-Format: ![Alt Text](url)
+![Connectors Monitoring Dashboard](/images/Connectors-1.png)
+
 
 ## Schema Registry
 
-![Schema Registry Monitoring Dashboard](/images/logo.png)
-Format: ![Alt Text](url)
+![Schema Registry Monitoring Dashboard](/images/SR.png)
+
 
 ## Kafka Rest Proxy
 
-![Kafka Resct Proxy Monitoring Dashboard](/images/logo.png)
-Format: ![Alt Text](url)
+![Kafka Resct Proxy Monitoring Dashboard](/images/KafkaRest.png)
+
 
 ## KSQL DB
 
-![KSQL DB Monitoring Dashboard](/images/logo.png)
-Format: ![Alt Text](url)
+![KSQL DB Monitoring Dashboard](/images/KsqlDB.png)
