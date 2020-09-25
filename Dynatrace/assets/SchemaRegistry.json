@@ -1,0 +1,215 @@
+{
+  "version": "1.1601046153",
+  "name": "custom.jmx.schemaregistry1601046152002",
+  "type": "JMX",
+  "metricGroup": "custom.jmx.schemaregistry",
+  "entity": "PROCESS_GROUP_INSTANCE",
+  "configUI": {
+    "displayName": "schemaregistry"
+  },
+  "ui": {
+    "charts": [
+      {
+        "group": "schemaregistry metrics",
+        "title": "connection-count",
+        "series": [
+          {
+            "key": "metric_connection_count_1601045970357",
+            "aggregation": "avg",
+            "displayname": "connection-count"
+          }
+        ]
+      },
+      {
+        "group": "schemaregistry metrics",
+        "title": "failed-authentication-rate",
+        "series": [
+          {
+            "key": "metric_failed_authentication_rate_1601045993079",
+            "aggregation": "avg",
+            "displayname": "failed-authentication-rate"
+          }
+        ]
+      },
+      {
+        "group": "schemaregistry metrics",
+        "title": "connections-active",
+        "series": [
+          {
+            "key": "metric_connections_active_1601046059151",
+            "aggregation": "avg",
+            "displayname": "connections-active"
+          }
+        ]
+      },
+      {
+        "group": "schemaregistry metrics",
+        "title": "compatibility.subjects.versions.verify.request-error-rate",
+        "series": [
+          {
+            "key": "metric_compatibility_subjects_versions_verify_request_error_rate_1601046085357",
+            "aggregation": "avg",
+            "displayname": "compatibility.subjects.versions.verify.request-error-rate"
+          }
+        ]
+      },
+      {
+        "group": "schemaregistry metrics",
+        "title": "metadata.id.request-latency-max",
+        "series": [
+          {
+            "key": "metric_metadata_id_request_latency_max_1601046150768",
+            "aggregation": "avg",
+            "displayname": "metadata.id.request-latency-max"
+          }
+        ]
+      },
+      {
+        "group": "schemaregistry metrics",
+        "title": "master-slave-role",
+        "series": [
+          {
+            "key": "metric_master_slave_role_1601047466953",
+            "aggregation": "avg",
+            "displayname": "master-slave-role"
+          }
+        ]
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "timeseries": {
+        "key": "metric_connection_count_1601045970357",
+        "unit": "Count",
+        "displayname": "connection-count",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.schema.registry",
+        "keyProperties": {
+          "type": "kafka.schema.registry-metrics"
+        },
+        "attribute": "connection-count",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_failed_authentication_rate_1601045993079",
+        "unit": "Count",
+        "displayname": "failed-authentication-rate",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.schema.registry",
+        "keyProperties": {
+          "type": "kafka.schema.registry-metrics"
+        },
+        "attribute": "failed-authentication-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connections_active_1601046059151",
+        "unit": "Count",
+        "displayname": "connections-active",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.schema.registry",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "connections-active",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_compatibility_subjects_versions_verify_request_error_rate_1601046085357",
+        "unit": "Count",
+        "displayname": "compatibility.subjects.versions.verify.request-error-rate",
+        "dimensions": [
+          "rx_pid",
+          "http_status_code"
+        ]
+      },
+      "source": {
+        "domain": "kafka.schema.registry",
+        "keyProperties": {
+          "type": "*",
+          "http_status_code": "*"
+        },
+        "attribute": "compatibility.subjects.versions.verify.request-error-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "http_status_code",
+          "type": "keyProperty",
+          "keyProperty": "http_status_code"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_metadata_id_request_latency_max_1601046150768",
+        "unit": "Count",
+        "displayname": "metadata.id.request-latency-max",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.schema.registry",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "metadata.id.request-latency-max",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_master_slave_role_1601047466953",
+        "unit": "Count",
+        "displayname": "master-slave-role",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.schema.registry",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "master-slave-role",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    }
+  ]
+}

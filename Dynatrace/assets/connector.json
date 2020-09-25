@@ -1,0 +1,1115 @@
+{
+  "version": "1.1600826197",
+  "name": "custom.jmx.connector1600826168778",
+  "type": "JMX",
+  "metricGroup": "custom.jmx.connector",
+  "entity": "PROCESS_GROUP_INSTANCE",
+  "configUI": {
+    "displayName": "connector"
+  },
+  "ui": {
+    "charts": [
+      {
+        "group": "connector metrics",
+        "title": "task-count",
+        "series": [
+          {
+            "key": "metric_task_count_1600826156487",
+            "aggregation": "sum",
+            "displayname": "task-count"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "connector-total-task-count",
+        "series": [
+          {
+            "key": "metric_connector_total_task_count_1600992605138",
+            "aggregation": "sum",
+            "displayname": "connector-total-task-count"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "connector-failed-task-count",
+        "series": [
+          {
+            "key": "metric_connector_failed_task_count_1600992653757",
+            "aggregation": "sum",
+            "displayname": "connector-failed-task-count"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "connector-unassigned-task-count",
+        "series": [
+          {
+            "key": "metric_connector_unassigned_task_count_1600992739691",
+            "aggregation": "sum",
+            "displayname": "connector-unassigned-task-count"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "running-ratio",
+        "series": [
+          {
+            "key": "metric_running_ratio_1600992830169",
+            "aggregation": "avg",
+            "displayname": "running-ratio"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "connector-version",
+        "series": [
+          {
+            "key": "metric_connector_version_1600992886284",
+            "aggregation": "avg",
+            "displayname": "connector-version"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "total-record-failures",
+        "series": [
+          {
+            "key": "metric_total_record_failures_1600992946960",
+            "aggregation": "avg",
+            "displayname": "total-record-failures"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "total-retries",
+        "series": [
+          {
+            "key": "metric_total_retries_1600992998657",
+            "aggregation": "avg",
+            "displayname": "total-retries"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "connector-running-task-count",
+        "series": [
+          {
+            "key": "metric_connector_running_task_count_1600996472676",
+            "aggregation": "sum",
+            "displayname": "connector-running-task-count"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "source-record-poll-rate",
+        "series": [
+          {
+            "key": "metric_source_record_poll_rate_1600996599257",
+            "aggregation": "avg",
+            "displayname": "source-record-poll-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "failed-authentication-rate",
+        "series": [
+          {
+            "key": "metric_failed_authentication_rate_1600996744010",
+            "aggregation": "avg",
+            "displayname": "failed-authentication-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "incoming-byte-rate",
+        "series": [
+          {
+            "key": "metric_incoming_byte_rate_1600996835943",
+            "aggregation": "avg",
+            "displayname": "incoming-byte-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "connection-count",
+        "series": [
+          {
+            "key": "metric_connection_count_1600996887941",
+            "aggregation": "avg",
+            "displayname": "connection-count"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "connector-count",
+        "series": [
+          {
+            "key": "metric_connector_count_1600996959955",
+            "aggregation": "sum",
+            "displayname": "connector-count"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "incoming-byte-total",
+        "series": [
+          {
+            "key": "metric_incoming_byte_total_1600998431072",
+            "aggregation": "avg",
+            "displayname": "incoming-byte-total"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "completed-rebalances-total",
+        "series": [
+          {
+            "key": "metric_completed_rebalances_total_1600998618624",
+            "aggregation": "avg",
+            "displayname": "completed-rebalances-total"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "failed-rebalance-total",
+        "series": [
+          {
+            "key": "metric_failed_rebalance_total_1600999933862",
+            "aggregation": "avg",
+            "displayname": "failed-rebalance-total"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "poll-batch-max-time-ms",
+        "series": [
+          {
+            "key": "metric_poll_batch_max_time_ms_1600999999634",
+            "aggregation": "avg",
+            "displayname": "poll-batch-max-time-ms"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "rebalance-latency-max",
+        "series": [
+          {
+            "key": "metric_rebalance_latency_max_1601000081387",
+            "aggregation": "avg",
+            "displayname": "rebalance-latency-max"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "sink-record-read-rate",
+        "series": [
+          {
+            "key": "metric_sink_record_read_rate_1601001489240",
+            "aggregation": "avg",
+            "displayname": "sink-record-read-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "sink-record-send-rate",
+        "series": [
+          {
+            "key": "metric_sink_record_send_rate_1601001548932",
+            "aggregation": "avg",
+            "displayname": "sink-record-send-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "heartbeat-rate",
+        "series": [
+          {
+            "key": "metric_heartbeat_rate_1601001617940",
+            "aggregation": "avg",
+            "displayname": "heartbeat-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "network-io-rate",
+        "series": [
+          {
+            "key": "metric_network_io_rate_1601001675223",
+            "aggregation": "avg",
+            "displayname": "network-io-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "outgoing-byte-rate",
+        "series": [
+          {
+            "key": "metric_outgoing_byte_rate_1601001731546",
+            "aggregation": "avg",
+            "displayname": "outgoing-byte-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "count",
+        "series": [
+          {
+            "key": "metric_count_1601001775368",
+            "aggregation": "avg",
+            "displayname": "count"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "incoming-byte-rate",
+        "series": [
+          {
+            "key": "metric_incoming_byte_rate_1601001816393",
+            "aggregation": "avg",
+            "displayname": "incoming-byte-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "outgoing-byte-rate",
+        "series": [
+          {
+            "key": "metric_outgoing_byte_rate_1601001852092",
+            "aggregation": "avg",
+            "displayname": "outgoing-byte-rate"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "assigned-tasks",
+        "series": [
+          {
+            "key": "metric_assigned_tasks_1601003671668",
+            "aggregation": "avg",
+            "displayname": "assigned-tasks"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "deadletterqueue-produce-requests",
+        "series": [
+          {
+            "key": "metric_deadletterqueue_produce_requests_1601003732136",
+            "aggregation": "avg",
+            "displayname": "deadletterqueue-produce-requests"
+          }
+        ]
+      },
+      {
+        "group": "connector metrics",
+        "title": "request-latency-max",
+        "series": [
+          {
+            "key": "metric_request_latency_max_1601003781635",
+            "aggregation": "avg",
+            "displayname": "request-latency-max"
+          }
+        ]
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "timeseries": {
+        "key": "metric_task_count_1600826156487",
+        "unit": "Count",
+        "displayname": "task-count",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "connect-worker-metrics"
+        },
+        "attribute": "task-count",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "SUM"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connector_total_task_count_1600992605138",
+        "unit": "Count",
+        "displayname": "connector-total-task-count",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "*"
+        },
+        "attribute": "connector-total-task-count",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "SUM",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connector_failed_task_count_1600992653757",
+        "unit": "Count",
+        "displayname": "connector-failed-task-count",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "*"
+        },
+        "attribute": "connector-failed-task-count",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "SUM",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connector_unassigned_task_count_1600992739691",
+        "unit": "Count",
+        "displayname": "connector-unassigned-task-count",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "TibcoJMSSourceConnector",
+          "type": "connect-worker-metrics"
+        },
+        "attribute": "connector-unassigned-task-count",
+        "allowAdditionalKeys": false,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "SUM"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_running_ratio_1600992830169",
+        "unit": "Count",
+        "displayname": "running-ratio",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "*"
+        },
+        "attribute": "running-ratio",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connector_version_1600992886284",
+        "unit": "Count",
+        "displayname": "connector-version",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "*"
+        },
+        "attribute": "connector-version",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_total_record_failures_1600992946960",
+        "unit": "Count",
+        "displayname": "total-record-failures",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "*"
+        },
+        "attribute": "total-record-failures",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_total_retries_1600992998657",
+        "unit": "Count",
+        "displayname": "total-retries",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "*"
+        },
+        "attribute": "total-retries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connector_running_task_count_1600996472676",
+        "unit": "Count",
+        "displayname": "connector-running-task-count",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "connect-worker-metrics",
+          "connector": "*"
+        },
+        "attribute": "connector-running-task-count",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "SUM",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_source_record_poll_rate_1600996599257",
+        "unit": "Count",
+        "displayname": "source-record-poll-rate",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "*"
+        },
+        "attribute": "source-record-poll-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_failed_authentication_rate_1600996744010",
+        "unit": "Count",
+        "displayname": "failed-authentication-rate",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "connect-metrics"
+        },
+        "attribute": "failed-authentication-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_incoming_byte_rate_1600996835943",
+        "unit": "Count",
+        "displayname": "incoming-byte-rate",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "*",
+          "client-id": "*"
+        },
+        "attribute": "incoming-byte-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connection_count_1600996887941",
+        "unit": "Count",
+        "displayname": "connection-count",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "*",
+          "client-id": "*"
+        },
+        "attribute": "connection-count",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connector_count_1600996959955",
+        "unit": "Count",
+        "displayname": "connector-count",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "connector-count",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "SUM"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_incoming_byte_total_1600998431072",
+        "unit": "Count",
+        "displayname": "incoming-byte-total",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "incoming-byte-total",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_completed_rebalances_total_1600998618624",
+        "unit": "Count",
+        "displayname": "completed-rebalances-total",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "connect-worker-rebalance-metrics"
+        },
+        "attribute": "completed-rebalances-total",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_failed_rebalance_total_1600999933862",
+        "unit": "Count",
+        "displayname": "failed-rebalance-total",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "*",
+          "client-id": "*"
+        },
+        "attribute": "failed-rebalance-total",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_poll_batch_max_time_ms_1600999999634",
+        "unit": "Count",
+        "displayname": "poll-batch-max-time-ms",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "source-task-metrics",
+          "connector": "*"
+        },
+        "attribute": "poll-batch-max-time-ms",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_rebalance_latency_max_1601000081387",
+        "unit": "Count",
+        "displayname": "rebalance-latency-max",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "connect-coordinator-metrics"
+        },
+        "attribute": "rebalance-latency-max",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_sink_record_read_rate_1601001489240",
+        "unit": "Count",
+        "displayname": "sink-record-read-rate",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "task": "*",
+          "connector": "*"
+        },
+        "attribute": "sink-record-read-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_sink_record_send_rate_1601001548932",
+        "unit": "Count",
+        "displayname": "sink-record-send-rate",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "sink-task-metrics"
+        },
+        "attribute": "sink-record-send-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_heartbeat_rate_1601001617940",
+        "unit": "Count",
+        "displayname": "heartbeat-rate",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "*",
+          "client-id": "*"
+        },
+        "attribute": "heartbeat-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": true,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_network_io_rate_1601001675223",
+        "unit": "Count",
+        "displayname": "network-io-rate",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "*",
+          "client-id": "*"
+        },
+        "attribute": "network-io-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_outgoing_byte_rate_1601001731546",
+        "unit": "Count",
+        "displayname": "outgoing-byte-rate",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "*",
+          "client-id": "*"
+        },
+        "attribute": "outgoing-byte-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_count_1601001775368",
+        "unit": "Count",
+        "displayname": "count",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "kafka-metrics-count",
+          "client-id": "*"
+        },
+        "attribute": "count",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_incoming_byte_rate_1601001816393",
+        "unit": "Count",
+        "displayname": "incoming-byte-rate",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "connect-node-metrics",
+          "client-id": "*"
+        },
+        "attribute": "incoming-byte-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_outgoing_byte_rate_1601001852092",
+        "unit": "Count",
+        "displayname": "outgoing-byte-rate",
+        "dimensions": [
+          "rx_pid",
+          "client-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "connect-node-metrics",
+          "client-id": "*"
+        },
+        "attribute": "outgoing-byte-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "client-id",
+          "type": "keyProperty",
+          "keyProperty": "client-id"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_assigned_tasks_1601003671668",
+        "unit": "Count",
+        "displayname": "assigned-tasks",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "type": "connect-coordinator-metrics"
+        },
+        "attribute": "assigned-tasks",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_deadletterqueue_produce_requests_1601003732136",
+        "unit": "Count",
+        "displayname": "deadletterqueue-produce-requests",
+        "dimensions": [
+          "rx_pid",
+          "connector"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "connector": "*"
+        },
+        "attribute": "deadletterqueue-produce-requests",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "connector",
+          "type": "keyProperty",
+          "keyProperty": "connector"
+        }
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_request_latency_max_1601003781635",
+        "unit": "Count",
+        "displayname": "request-latency-max",
+        "dimensions": [
+          "rx_pid",
+          "node-id"
+        ]
+      },
+      "source": {
+        "domain": "kafka.connect",
+        "keyProperties": {
+          "node-id": "*"
+        },
+        "attribute": "request-latency-max",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG",
+        "splitting": {
+          "name": "node-id",
+          "type": "keyProperty",
+          "keyProperty": "node-id"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "version": "1.1601054419",
+  "name": "custom.jmx.KafkaRest1601054419821",
+  "type": "JMX",
+  "metricGroup": "custom.jmx.KafkaRest",
+  "entity": "PROCESS_GROUP_INSTANCE",
+  "configUI": {
+    "displayName": "KafkaRest"
+  },
+  "ui": {
+    "charts": [
+      {
+        "group": "KafkaRest metrics",
+        "title": "brokers.list+v2.request-byte-rate",
+        "series": [
+          {
+            "key": "metric_brokers_list_v2_request_byte_rate_1601054214026",
+            "aggregation": "avg",
+            "displayname": "brokers.list+v2.request-byte-rate"
+          }
+        ]
+      },
+      {
+        "group": "KafkaRest metrics",
+        "title": "brokers.list+v2.response-rate",
+        "series": [
+          {
+            "key": "metric_brokers_list_v2_response_rate_1601054227006",
+            "aggregation": "avg",
+            "displayname": "brokers.list+v2.response-rate"
+          }
+        ]
+      },
+      {
+        "group": "KafkaRest metrics",
+        "title": "brokers.list.request-error-rate",
+        "series": [
+          {
+            "key": "metric_brokers_list_request_error_rate_1601054240723",
+            "aggregation": "avg",
+            "displayname": "brokers.list.request-error-rate"
+          }
+        ]
+      },
+      {
+        "group": "KafkaRest metrics",
+        "title": "connections-active",
+        "series": [
+          {
+            "key": "metric_connections_active_1601054257373",
+            "aggregation": "avg",
+            "displayname": "connections-active"
+          }
+        ]
+      },
+      {
+        "group": "KafkaRest metrics",
+        "title": "startupTime",
+        "series": [
+          {
+            "key": "metric_startupTime_1601054411280",
+            "aggregation": "avg",
+            "displayname": "startupTime"
+          }
+        ]
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "timeseries": {
+        "key": "metric_brokers_list_v2_request_byte_rate_1601054214026",
+        "unit": "Count",
+        "displayname": "brokers.list+v2.request-byte-rate",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.rest",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "brokers.list+v2.request-byte-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_brokers_list_v2_response_rate_1601054227006",
+        "unit": "Count",
+        "displayname": "brokers.list+v2.response-rate",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.rest",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "brokers.list+v2.response-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_brokers_list_request_error_rate_1601054240723",
+        "unit": "Count",
+        "displayname": "brokers.list.request-error-rate",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.rest",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "brokers.list.request-error-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_connections_active_1601054257373",
+        "unit": "Count",
+        "displayname": "connections-active",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "kafka.rest",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "connections-active",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_startupTime_1601054411280",
+        "unit": "Count",
+        "displayname": "startupTime",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.rest",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "startupTime",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    }
+  ]
+}

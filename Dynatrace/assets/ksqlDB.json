@@ -1,0 +1,432 @@
+{
+  "version": "1.1601058814",
+  "name": "custom.jmx.ksql1601058813564",
+  "type": "JMX",
+  "metricGroup": "custom.jmx.ksql",
+  "entity": "PROCESS_GROUP_INSTANCE",
+  "configUI": {
+    "displayName": "ksql"
+  },
+  "ui": {
+    "charts": [
+      {
+        "group": "ksql metrics",
+        "title": "_confluent-ksql-default_error-rate",
+        "series": [
+          {
+            "key": "metric__confluent_ksql_default_error_rate_1601058688874",
+            "aggregation": "avg",
+            "displayname": "_confluent-ksql-default_error-rate"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "_confluent-ksql-default_ksql-engine-query-stats-CREATED-queries",
+        "series": [
+          {
+            "key": "metric__confluent_ksql_default_ksql_engine_query_stats_CREATED_queries_1601058699460",
+            "aggregation": "avg",
+            "displayname": "_confluent-ksql-default_ksql-engine-query-stats-CREATED-queries"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "_confluent-ksql-default_ksql-engine-query-stats-NOT_RUNNING-queries",
+        "series": [
+          {
+            "key": "metric__confluent_ksql_default_ksql_engine_query_stats_NOT_RUNNING_queries_1601058709290",
+            "aggregation": "avg",
+            "displayname": "_confluent-ksql-default_ksql-engine-query-stats-NOT_RUNNING-queries"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "_confluent-ksql-default_ksql-engine-query-stats-REBALANCING-queries",
+        "series": [
+          {
+            "key": "metric__confluent_ksql_default_ksql_engine_query_stats_REBALANCING_queries_1601058716382",
+            "aggregation": "avg",
+            "displayname": "_confluent-ksql-default_ksql-engine-query-stats-REBALANCING-queries"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "_confluent-ksql-default_liveness-indicator",
+        "series": [
+          {
+            "key": "metric__confluent_ksql_default_liveness_indicator_1601058722391",
+            "aggregation": "avg",
+            "displayname": "_confluent-ksql-default_liveness-indicator"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "_confluent-ksql-default_num-persistent-queries",
+        "series": [
+          {
+            "key": "metric__confluent_ksql_default_num_persistent_queries_1601058730276",
+            "aggregation": "avg",
+            "displayname": "_confluent-ksql-default_num-persistent-queries"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "CREATED-queries",
+        "series": [
+          {
+            "key": "metric_CREATED_queries_1601058742539",
+            "aggregation": "avg",
+            "displayname": "CREATED-queries"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "RUNNING-queries",
+        "series": [
+          {
+            "key": "metric_RUNNING_queries_1601058747981",
+            "aggregation": "avg",
+            "displayname": "RUNNING-queries"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "liveness-indicator",
+        "series": [
+          {
+            "key": "metric_liveness_indicator_1601058755161",
+            "aggregation": "avg",
+            "displayname": "liveness-indicator"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "REBALANCING-queries",
+        "series": [
+          {
+            "key": "metric_REBALANCING_queries_1601058774815",
+            "aggregation": "avg",
+            "displayname": "REBALANCING-queries"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "num-persistent-queries",
+        "series": [
+          {
+            "key": "metric_num_persistent_queries_1601058795894",
+            "aggregation": "avg",
+            "displayname": "num-persistent-queries"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "status",
+        "series": [
+          {
+            "key": "metric_status_1601058807831",
+            "aggregation": "avg",
+            "displayname": "status"
+          }
+        ]
+      },
+      {
+        "group": "ksql metrics",
+        "title": "PENDING_SHUTDOWN-queries",
+        "series": [
+          {
+            "key": "metric_PENDING_SHUTDOWN_queries_1601059361828",
+            "aggregation": "avg",
+            "displayname": "PENDING_SHUTDOWN-queries"
+          }
+        ]
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "timeseries": {
+        "key": "metric__confluent_ksql_default_error_rate_1601058688874",
+        "unit": "Count",
+        "displayname": "_confluent-ksql-default_error-rate",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "ksql-engine-query-stats"
+        },
+        "attribute": "_confluent-ksql-default_error-rate",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric__confluent_ksql_default_ksql_engine_query_stats_CREATED_queries_1601058699460",
+        "unit": "Count",
+        "displayname": "_confluent-ksql-default_ksql-engine-query-stats-CREATED-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "ksql-engine-query-stats"
+        },
+        "attribute": "_confluent-ksql-default_ksql-engine-query-stats-CREATED-queries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric__confluent_ksql_default_ksql_engine_query_stats_NOT_RUNNING_queries_1601058709290",
+        "unit": "Count",
+        "displayname": "_confluent-ksql-default_ksql-engine-query-stats-NOT_RUNNING-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "ksql-engine-query-stats"
+        },
+        "attribute": "_confluent-ksql-default_ksql-engine-query-stats-NOT_RUNNING-queries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric__confluent_ksql_default_ksql_engine_query_stats_REBALANCING_queries_1601058716382",
+        "unit": "Count",
+        "displayname": "_confluent-ksql-default_ksql-engine-query-stats-REBALANCING-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "ksql-engine-query-stats"
+        },
+        "attribute": "_confluent-ksql-default_ksql-engine-query-stats-REBALANCING-queries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric__confluent_ksql_default_liveness_indicator_1601058722391",
+        "unit": "Count",
+        "displayname": "_confluent-ksql-default_liveness-indicator",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "ksql-engine-query-stats"
+        },
+        "attribute": "_confluent-ksql-default_liveness-indicator",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric__confluent_ksql_default_num_persistent_queries_1601058730276",
+        "unit": "Count",
+        "displayname": "_confluent-ksql-default_num-persistent-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "ksql-engine-query-stats"
+        },
+        "attribute": "_confluent-ksql-default_num-persistent-queries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_CREATED_queries_1601058742539",
+        "unit": "Count",
+        "displayname": "CREATED-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "CREATED-queries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_RUNNING_queries_1601058747981",
+        "unit": "Count",
+        "displayname": "RUNNING-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "RUNNING-queries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_liveness_indicator_1601058755161",
+        "unit": "Count",
+        "displayname": "liveness-indicator",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "liveness-indicator",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_REBALANCING_queries_1601058774815",
+        "unit": "Count",
+        "displayname": "REBALANCING-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "REBALANCING-queries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_num_persistent_queries_1601058795894",
+        "unit": "Count",
+        "displayname": "num-persistent-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "num-persistent-queries",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_status_1601058807831",
+        "unit": "Count",
+        "displayname": "status",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "*"
+        },
+        "attribute": "status",
+        "allowAdditionalKeys": true,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "metric_PENDING_SHUTDOWN_queries_1601059361828",
+        "unit": "Count",
+        "displayname": "PENDING_SHUTDOWN-queries",
+        "dimensions": [
+          "rx_pid"
+        ]
+      },
+      "source": {
+        "domain": "io.confluent.ksql.metrics",
+        "keyProperties": {
+          "type": "_confluent-ksql-default_ksql-engine-query-stats"
+        },
+        "attribute": "PENDING_SHUTDOWN-queries",
+        "allowAdditionalKeys": false,
+        "calculateDelta": false,
+        "calculateRate": false,
+        "aggregation": "AVG"
+      }
+    }
+  ]
+}
