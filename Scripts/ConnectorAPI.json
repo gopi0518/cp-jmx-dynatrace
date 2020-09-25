@@ -1,0 +1,31 @@
+{
+	"version": "1.0",
+	"requests": [
+		{
+			"description": "TIBCO JMS Connector",
+			"url": "http://localhost:8083/connectors/TibcoJMSSourceConnector",
+			"method": "GET",
+			"validation": {
+				"rules": [
+					{
+						"value": ">=400",
+						"passIfFound": false,
+						"type": "httpStatusesList"
+					}
+				],
+				"rulesChaining": "or"
+			},
+			"configuration": {
+				"requestHeaders": [
+					{
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"acceptAnyCertificate": true,
+				"followRedirects": true
+			},
+			"postProcessingScript": "if(response.getStatusCode!=200){\n    api.setValue(\"Connector-Status\", \"FAILED\");\n}else{\n    api.setValue(\"Connector-Status\",\"RUNNING\");\n    api.setValue(\"Max-Tasks\",response.getResponseBody().config.tasks.max);\n}"
+		}
+	]
+}
