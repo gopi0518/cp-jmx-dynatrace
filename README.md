@@ -3,11 +3,11 @@ The Dynatrace-Confluent plugin is based on the JMX plugin and allows the
 Dynatrace OneAgent to collect JMX metrics from Confluent Components.
 By default, Dynatrace OneAgent identifies Kafka installation on pull the broker metrics. This metrics are available under “Settings->Monitoring->Monitored technologies-> Kafka JMX’. The Kafka Brokers dashboard is created with these metrics, and for the rest of the cp components metrics below setup is needed.
 
-Note: Dynatrace Agent does not pull metrics with text value. So, I have used Synthetic HTTP   monitoring to check Connector Statuses.
+Note: Dynatrace Agent does not pull metrics with text value. So, I have used Synthetic HTTP monitoring to check Connector Status.
 
 ## Installation
 
-1.	Copy Script/ConnectorAPI to Dynatrace server. Refer to the below link for instructions
+1.	Replace the connector URL and description (one file per connector) in Scripts/ConnectorAPI and copy the contents to Dynatrace server. Follow the below KB for instructions (This step is to pull the connector status).
 
 https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/script-mode-for-browser-monitor-configuration/?script-parameters%3C-%3Escript-model=script-parameters
 
@@ -43,8 +43,4 @@ If the above steps are successful, you can see dash boards added to Dynatrace se
 
 ## KSQL DB
 
-![KSQL DB Monitoring Dashboard](/images/KsqlDB.png)<<<<<<< HEAD
 ![KSQL DB Monitoring Dashboard](/images/KsqlDB.png)
-=======
-![KSQL DB Monitoring Dashboard](/images/KsqlDB.png)
->>>>>>> 82a84c242ab05fad555b148ed6e11c0fdcb3a81a
