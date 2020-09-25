@@ -1,7 +1,7 @@
 # cp-jmx-dynatrace
 The Dynatrace-Confluent plugin is based on the JMX plugin and allows the 
 Dynatrace OneAgent to collect JMX metrics from Confluent Components.
-By default, Dynatrace OneAgent identifies Kafka installation on pull the broker metrics. This metrics are available under “Settings->Monitoring->Monitored technologies-> Kafka JMX’. The Kafka Brokers dashboard is created with these metrics, and for the rest of the cp components metrics below setup is needed.
+By default, Dynatrace OneAgent identifies Kafka installation and pull the Kafka Broker metrics. This metrics are available under “Settings->Monitoring->Monitored technologies-> Kafka JMX’. The Kafka Brokers dashboard is created with these metrics, and for the rest of the cp components metrics below setup is needed.
 
 Note: Dynatrace Agent does not pull metrics with text value. So, I have used Synthetic HTTP monitoring to check Connector Status.
 
