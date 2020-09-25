@@ -21,6 +21,7 @@ https://www.dynatrace.com/support/help/dynatrace-api/configuration-api/dashboard
 
 If the above steps are successful, you can see dash boards added to Dynatrace server.
 
+## Dashboards
 ![Dash boards](/images/Dashboards.png)
 
 ## Connector Dashboard
