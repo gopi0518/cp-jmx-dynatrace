@@ -43,8 +43,4 @@ If the above steps are successful, you can see dash boards added to Dynatrace se
 
 ## KSQL DB
 
-![KSQL DB Monitoring Dashboard](/images/KsqlDB.png)<<<<<<< HEAD
 ![KSQL DB Monitoring Dashboard](/images/KsqlDB.png)
-=======
-![KSQL DB Monitoring Dashboard](/images/KsqlDB.png)
->>>>>>> 82a84c242ab05fad555b148ed6e11c0fdcb3a81a
