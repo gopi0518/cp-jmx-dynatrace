@@ -25,7 +25,7 @@
 				"acceptAnyCertificate": true,
 				"followRedirects": true
 			},
-			"postProcessingScript": "if(response.getStatusCode!=200){\n    api.setValue(\"Connector-Status\", \"FAILED\");\n}else{\n    api.setValue(\"Connector-Status\",\"RUNNING\");\n    api.setValue(\"Max-Tasks\",response.getResponseBody().config.tasks.max);\n}"
+			"postProcessingScript": "var responseBody = response.getResponseBody();\nvar jsonData = JSON.parse(responseBody);\nif (jsonData.connector.state != \"RUNNING\") {\n    api.fail(\"failed connector\");\n}"
 		}
 	]
 }

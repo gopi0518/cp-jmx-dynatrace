@@ -925,7 +925,7 @@
             }
         },
         {
-            "name": "SourecConnectors",
+            "name": "SourceConnectors",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
